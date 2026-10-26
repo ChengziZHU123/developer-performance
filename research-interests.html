@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chengzi Zhu_Research interests</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      background: #fff;
+      color: #111;
+      font-family: "Times New Roman", Times, serif;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 18px 24px;
+      border-bottom: 1px solid #bbb;
+    }
+    h1 { margin: 0; font-size: 24px; font-weight: normal; }
+    nav { display: flex; flex-wrap: wrap; gap: 10px; }
+    a {
+      color: #111;
+      border: 1px solid #999;
+      padding: 7px 12px;
+      text-decoration: none;
+    }
+    .viewer { height: calc(100vh - 76px); min-height: 620px; }
+    iframe { width: 100%; height: 100%; border: 0; }
+    .fallback { display: none; padding: 28px; }
+    @media (max-width: 700px) {
+      header { align-items: flex-start; flex-direction: column; }
+      h1 { font-size: 21px; }
+      .viewer { height: calc(100vh - 132px); min-height: 520px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Chengzi Zhu_Research interests</h1>
+    <nav>
+      <a href="index.html">Empirical results</a>
+      <a href="technology-and-organization-presentation.pptx" download>Download editable PPTX</a>
+    </nav>
+  </header>
+  <main class="viewer">
+    <iframe
+      title="Chengzi Zhu Research interests presentation"
+      src="https://view.officeapps.live.com/op/embed.aspx?src=https%3A%2F%2Fchengzizhu123.github.io%2Fdeveloper-performance%2Ftechnology-and-organization-presentation.pptx"
+      allowfullscreen>
+    </iframe>
+    <p class="fallback">If the presentation preview does not load, use “Download editable PPTX” above.</p>
+  </main>
+</body>
+</html>
